@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/8.jpg');
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.entradas {
+    background-color: rgba(255, 255, 255, 0.59);
+}
+
+.izquierda {
+    background-color: rgba(255, 255, 255, 0.77);
+}
+
+.derecha {
+    background-color: rgba(255, 255, 255, 0.77);
+}
+
+.favoritos img {
+  width: 30%;
+  padding: 3px;
+}
+
+.historial ul li {
+  list-style: circle;
+  font-size: 12px;
+}
+
+div.secondary.callout.text-center {
+    min-height: 242px;
+}
+
+.pato ul li {
+    list-style: none;
+}

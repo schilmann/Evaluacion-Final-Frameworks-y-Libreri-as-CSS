@@ -1,0 +1,127 @@
+/*GENERAL*/
+body {
+    background: slategrey;
+}
+
+.container {
+    background: white;
+}
+
+header {
+    min-height: 150px;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 30px;
+    padding: 7px;
+}
+
+.social {
+    margin-top: 90px;
+}
+
+.social img {
+    width: 50px;
+    padding: 5px;
+}
+
+.navbar-1 {
+    background: lightgray;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.navbar-1 a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 35px;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.entrada-1 img {
+    width: 60%;
+    padding: 10px;
+}
+
+.entrada-2 {
+    min-height: 300px;
+}
+
+.entrada-2 img {
+    width: 60%;
+    padding: 10px;
+}
+
+.buscador {
+    margin-top: 10px;
+}
+
+.check {
+    margin-top: 5px;
+}
+
+.p1 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.foot {
+    height: 60px;
+}
+
+@media (max-width: 1024px) {
+    .buscador {
+    display: none;
+}
+
+    .social {
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width: 768px) {
+    
+    .navbar-1 a {
+    font-size: 0.7em;
+
+}
+
+@media (max-width: 576px) {
+
+    .logo img {
+    width: 80px;
+}
+    
+    .navbar-1 {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+    .navbar-1 > div {
+    width: 100%;
+    text-align: center;
+}
+
+    .social {
+    margin-top: 10px;
+}
+
+    .social img {
+    width: 30px;
+    padding: 2px 0 3px 0;
+}
+
+    .p1 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
