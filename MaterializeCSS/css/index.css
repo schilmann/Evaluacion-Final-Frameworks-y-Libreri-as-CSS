@@ -1,9 +1,25 @@
+body {
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .barra-superior {
     min-height: 4rem;
 }
 
 .logo {
     margin-left: 25px;
+}
+
+.publicacion1 {
+    padding: 15px;
+}
+
+textarea {
+    width: 97%;
+    margin-left: 10px;
 }
 
 h5 {
